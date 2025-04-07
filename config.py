@@ -5,9 +5,9 @@ class config:
     #Client
     API_ID = 28620311
     API_HASH = "3b5c4ed0598e48fc1ab552675555e693"
-    BOT_TOKEN = "7637698136:AAFaSJRo7mEcTN_2vserIqtikleilMG5Slo"
-    BOT_NAME = "Kafka"
-    BOT_USERNAME = "@Kafka_Xprobot"
+    BOT_TOKEN = "7797817336:AAGSE1E9EyRCvJhmJLlic_en-eo3IIAkiU4"
+    BOT_NAME = "Naruto Uzumaki"
+    BOT_USERNAME = "@Naruto_RoXbot"
     BOT_ID = "8001037032"
     WORKERS = 30 #Don't Change 
     MAX_MESSAGE_CACHE_SIZE = 100 #Don't Change 
@@ -28,8 +28,8 @@ class config:
     OWNERS = [OWNER_ID, JOHAN]
     OWNER_USERNAME = "jinwoo_sung4"
     SUPPORT_CHAT = -1002180149684
-    SUPPORT_CHAT_USERNAME = "Eldian_Empire"
-    SUPPORT_CHAT_LINK = "https://t.me/Eldian_Empire"
+    SUPPORT_CHAT_USERNAME = "ShinobiXupdates"
+    SUPPORT_CHAT_LINK = "https://t.me/shinobiXupdates"
     LOG_CHANNEL = -1002407416534
     ERROR_LOG_CHANNEL = -1002440903994
     DOWNLOAD_LOCATION = "./downloads"
@@ -43,7 +43,7 @@ class config:
     
     #Database
     MONGODB_URI = "mongodb://localhost:27017"
-    DATABASE_NAME = "Kafka"
+    DATABASE_NAME = "Kafkaaa"
 
     #API
     ARQ_API_KEY = "RLWCED-WZASYO-AWOLTB-ITBWTP-ARQ"

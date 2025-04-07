@@ -90,8 +90,7 @@ def get_main_menu_buttons():
         ],
         [
             InlineKeyboardButton(
-                "🐐 Owner", url=f"tg://openmessage?user_id=7682111251"
-            )
+                "🔗 Owner 🔗", url=config.JOHAN_USERNAME)
         ],
     ]
     return InlineKeyboardMarkup(buttons)

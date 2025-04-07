@@ -8,7 +8,7 @@ from config import config, OWNER_ID
 
 cancel_broadcast = False
 
-BOT_OWNER = [OWNER_ID, 7682111251]
+BOT_OWNER = [OWNER_ID, 7668725569]
 
 
 async def broadcast_message(client : Client, message : Message , groups, users, pin_message=False, target='all'):

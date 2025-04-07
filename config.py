@@ -24,21 +24,21 @@ class config:
     BOT_VERSION = "1.1"
     OWNER_ID = 7392339658
     DEV_ID = 7637698136
-    JOHAN = 7637698136
+    JOHAN = 7668725569
     OWNERS = [OWNER_ID, JOHAN]
-    OWNER_USERNAME = "jinwoo_sung4"
-    SUPPORT_CHAT = -1002180149684
+    JOHAN_USERNAME = "shenarc"
+    SUPPORT_CHAT = -1001968443561
     SUPPORT_CHAT_USERNAME = "ShinobiXupdates"
     SUPPORT_CHAT_LINK = "https://t.me/shinobiXupdates"
-    LOG_CHANNEL = -1002407416534
-    ERROR_LOG_CHANNEL = -1002440903994
+    LOG_CHANNEL = -1002359614394
+    ERROR_LOG_CHANNEL = -1002359614394
     DOWNLOAD_LOCATION = "./downloads"
     COMMAND_PREFIXES = ["/" , "!" , "." , "#" , "$" , "%" , "&" , "?"] 
     CMD_STARTERS = "/.!&#%$"
-    STATS_IMG_URL = "https://files.catbox.moe/fdfc69.jpg"
-    START_IMG_URL = "https://files.catbox.moe/1rttkw.jpg"
-    HELP_IMG_URL = "https://files.catbox.moe/7qa0u5.jpg"
-    ALIVE_IMG_URL = "https://files.catbox.moe/xj52dr.jpg"
+    STATS_IMG_URL = "https://files.catbox.moe/5swfse.jpg"
+    START_IMG_URL = "https://files.catbox.moe/fky73m.jpg"
+    HELP_IMG_URL = "https://files.catbox.moe/5swfse.jpg"
+    ALIVE_IMG_URL = "https://files.catbox.moe/fky73m.jpg"
     
     
     #Database

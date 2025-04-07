@@ -90,7 +90,7 @@ def get_main_menu_buttons():
         ],
         [
             InlineKeyboardButton(
-                "🔗 Owner 🔗", url=config.JOHAN_USERNAME)
+                "🔗 Owner 🔗", user_id=config.JOHAN_USERNAME)
         ],
     ]
     return InlineKeyboardMarkup(buttons)

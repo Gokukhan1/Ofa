@@ -90,7 +90,7 @@ def get_main_menu_buttons():
         ],
         [
             InlineKeyboardButton(
-                "🔗 Owner 🔗", user_id=config.JOHAN_USERNAME)
+                "🔗 Owner 🔗", user_id=config.JOHAN)
         ],
     ]
     return InlineKeyboardMarkup(buttons)
@@ -228,7 +228,7 @@ async def handle_main_menu_callback(client, query: CallbackQuery):
 @app.on_message(filters.command(["start" , "help"], prefixes=config.COMMAND_PREFIXES) & filters.group)
 async def start_command(client, message: Message):
     button = InlineKeyboardMarkup([
-        [InlineKeyboardButton("Sᴛᴀʀᴛ ɪɴ ᴘᴍ", url="https://t.me/Kafka_XproBot?start=help")]
+        [InlineKeyboardButton("Sᴛᴀʀᴛ ɪɴ ᴘᴍ", url="https://t.me/naruto_roxBot?start=help")]
     ])
     await message.reply(
         text=f"**𝖧𝖾𝗅𝗅𝗈, {message.from_user.first_name} <3**\n"

@@ -2238,6 +2238,11 @@ youtube
     youtube:po_token=web.gvs+XXX,web.player=XXX,web_safari.gvs+YYY.
     Context can be either gvs (Google Video Server URLs) or player
     (Innertube player request)
+-   player_js_variant: The player javascript variant to use for
+    signature and nsig deciphering. The known variants are: main, tce,
+    tv, tv_es6, phone, tablet. Only main is recommended as a possible
+    workaround; the others are for debugging purposes. The default is to
+    use what is prescribed by the site, and can be selected with actual
 
 youtubetab (YouTube playlists, channels, feeds, etc.)
 
@@ -2411,6 +2416,11 @@ sonylivseries
 -   sort_order: Episode sort order for series extraction - one of asc
     (ascending, oldest first) or desc (descending, newest first).
     Default is asc
+
+tver
+
+-   backend: Backend API to use for extraction - one of streaks
+    (default) or brightcove (deprecated)
 
 Note: These options may be changed/removed in the future without concern
 for backward compatibility
@@ -2873,9 +2883,7 @@ and youtube-dlc:
     redirections
 -   Unavailable videos are also listed for YouTube playlists. Use
     --compat-options no-youtube-unavailable-videos to remove this
--   The upload dates extracted from YouTube are in UTC when available.
-    Use --compat-options no-youtube-prefer-utc-upload-date to prefer the
-    non-UTC upload date.
+-   The upload dates extracted from YouTube are in UTC.
 -   If ffmpeg is used as the downloader, the downloading and merging of
     formats happen in a single step when possible. Use
     --compat-options no-direct-merge to revert this
@@ -2927,11 +2935,12 @@ For ease of use, a few more compat options are available:
 -   --compat-options youtube-dlc: Same as
     --compat-options all,-no-live-chat,-no-youtube-channel-redirect,-playlist-match-filter,-manifest-filesize-approx,-allow-unsafe-ext,-prefer-vp9-sort
 -   --compat-options 2021: Same as
-    --compat-options 2022,no-certifi,filename-sanitization,no-youtube-prefer-utc-upload-date
+    --compat-options 2022,no-certifi,filename-sanitization
 -   --compat-options 2022: Same as
     --compat-options 2023,playlist-match-filter,no-external-downloader-progress,prefer-legacy-http-handler,manifest-filesize-approx
--   --compat-options 2023: Same as --compat-options prefer-vp9-sort. Use
-    this to enable all future compat options
+-   --compat-options 2023: Same as --compat-options 2024,prefer-vp9-sort
+-   --compat-options 2024: Currently does nothing. Use this to enable
+    all future compat options
 
 The following compat options restore vulnerable behavior from before
 security patches:

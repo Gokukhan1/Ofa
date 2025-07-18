@@ -43,5 +43,5 @@ youtube-search
 youtube-search-python
 pyjokes
 gitpython
-py-tgcalls==0.9.7
+py-tgcalls==0.7.1
 lyricsgenius

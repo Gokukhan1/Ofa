@@ -5,33 +5,33 @@ class config:
     #Client
     API_ID = 28620311
     API_HASH = "3b5c4ed0598e48fc1ab552675555e693"
-    BOT_TOKEN = "7797817336:AAGSE1E9EyRCvJhmJLlic_en-eo3IIAkiU4"
-    BOT_NAME = "Naruto Uzumaki"
-    BOT_USERNAME = "@Naruto_RoXbot"
-    BOT_ID = "8001037032"
+    BOT_TOKEN = "7653164188:AAHn6PkReV7fOGlk-1y7rAxSlH-oXxdm40Q"
+    BOT_NAME = "˹ᴡᴀɪғᴜ ᴄᴏʟʟᴇᴄᴛᴏʀ ʙᴏᴛ˼ 💎"
+    BOT_USERNAME = "@WaifuCollector_Bot"
+    BOT_ID = "7653164188"
     WORKERS = 30 #Don't Change 
     MAX_MESSAGE_CACHE_SIZE = 100 #Don't Change 
     MAX_CONCURRENT_TRANSMISSIONS = 10 #Don't Change 
-    SESSION_STRING = ""
+    SESSION_STRING = "BQFa2kUAIvPG7vWgoP9ELXfNhpTyLF9VwteHM7xGLeJB981x3tQNqvtOKxxA1-FQtYr2HXPbBM468GwNqC5Kw43-0dviDOsH67cOlpRHlmsTrw1KM7mneHyfq3RvjegiktFzb4mH6a-4JcVWJiozxYNTvom5zIW3aOdd7FfesdY-PgLhDuRa2a4cylVqX7mnFtpp7bM_TsEXRU3AswKyDr-T9VlVo9QwuPl2QhqxHTjpirdgKcCotp9hNteq6mhxPo08jy6p1GJZYFZoLpxEAvO1G3rfOOujmUei6IJBQHufUZLR-8NBwAUFgLIST0rjcAfyJ_g1tjdZyVKOqI77zcyvnsiLqAAAAAG-B05oAA"
     
      
     #Git
-    GIT_USERNAME = "Sungjinw04"
+    GIT_USERNAME = "Gokukhan1"
     GIT_URL_WITH_TOKEN = "https://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@github.com/Sungjinw04/Mikasa.git" 
 
 
     #Info
     BOT_VERSION = "1.1"
-    OWNER_ID = 7392339658
-    DEV_ID = 7637698136
-    JOHAN = 7668725569
+    OWNER_ID = 7078181502
+    DEV_ID = 6346273488
+    JOHAN = 7078181502
     OWNERS = [OWNER_ID, JOHAN]
-    JOHAN_USERNAME = "shenarc"
-    SUPPORT_CHAT = -1001968443561
-    SUPPORT_CHAT_USERNAME = "ShinobiXupdates"
-    SUPPORT_CHAT_LINK = "https://t.me/shinobiXupdates"
-    LOG_CHANNEL = -1002359614394
-    ERROR_LOG_CHANNEL = -1002359614394
+    JOHAN_USERNAME = "@xeno_kakarot"
+    SUPPORT_CHAT = -1002009280180
+    SUPPORT_CHAT_USERNAME = "mlohvdryj"
+    SUPPORT_CHAT_LINK = "https://t.me/mlohvdryj"
+    LOG_CHANNEL = -1002009280180
+    ERROR_LOG_CHANNEL = -1002009280180
     DOWNLOAD_LOCATION = "./downloads"
     COMMAND_PREFIXES = ["/" , "!" , "." , "#" , "$" , "%" , "&" , "?"] 
     CMD_STARTERS = "/.!&#%$"
@@ -42,7 +42,7 @@ class config:
     
     
     #Database
-    MONGODB_URI = "mongodb://localhost:27017"
+    MONGODB_URI = "mongodb+srv://I-LOVE-PDF-BOT:I-LOVE-PDF-BOT@cluster0.c51o3a9.mongodb.net/?retryWrites=true&w=majority"
     DATABASE_NAME = "Kafkaaa"
 
     #API
@@ -72,11 +72,11 @@ API_HASH = config.API_HASH
 BOT_TOKEN = config.BOT_TOKEN
 MONGO_DB_URI = config.MONGODB_URI
 DURATION_LIMIT_MIN = 600000000000000
-LOG_GROUP_ID = -1002274342742
+LOG_GROUP_ID = -1002009280180
 OWNER_ID = config.OWNER_ID
 HEROKU_APP_NAME = "HEROKU_APP_NAME"
 HEROKU_API_KEY = "HEROKU_API_KEY"
-UPSTREAM_REPO = "https://github.com/AnonymousX1025/AnonXMusic"
+UPSTREAM_REPO = "https://github.com/Gokukhan1/Ofa"
 UPSTREAM_BRANCH = "master"
 GIT_TOKEN = None
 SUPPORT_CHANNEL = config.SUPPORT_CHAT_LINK
